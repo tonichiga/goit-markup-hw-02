@@ -9,19 +9,22 @@
 
 :root {
   --primary-text-color: #757575;
+  --second-text-color: #ffffff;
   --title-text-color: #212121;
   --accent-color: #2196f3;
 }
 
-.body {
+body {
   background-color: #ffffff;
   color: var(--primary-text-color);
 }
 
+/* Убираем точки в списке */
+
 .list {
   list-style: none;
 }
-.list > social {
+.list .social {
   list-style: none;
 }
 
@@ -34,7 +37,7 @@
   color: #000000;
 }
 
-/* site-nav */
+/* Навигация сайта */
 
 .site-nav .link {
   color: var(--title-text-color);
@@ -44,8 +47,36 @@
   color: var(--accent-color);
 }
 
-/* color title */
+/* Герой */
+.hero-title {
+  color: var(--second-text-color);
+}
+/* О нас */
 
-.section-title {
+.about-us .title {
+  color: var(--title-text-color);
+}
+
+/* Чем мы занимаемся */
+
+.features-title {
+  color: var(--title-text-color);
+}
+.features-text {
+  color: var(--second-text-color);
+}
+
+/* Наша команда */
+
+.our-team-title {
+  color: var(--title-text-color);
+}
+.our-team .title {
+  color: var(--title-text-color);
+}
+
+/* Постоянные клиенты */
+
+.clients-title {
   color: var(--title-text-color);
 }
