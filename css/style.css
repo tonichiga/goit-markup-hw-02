@@ -7,31 +7,45 @@
 
 /* Акцент #2196F3 */
 
-body {
-    background-color: #FFFFFF;
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+.body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
-.list > social{
-    list-style: none;
+.list > social {
+  list-style: none;
 }
 
 /* logo nav */
+
 .logo {
-    color: #2196F3
+  color: var(--accent-color);
 }
 .logo-2 {
-    color: #000000
+  color: #000000;
 }
 
 /* site-nav */
 
 .site-nav .link {
-    color: #212121;
+  color: var(--title-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #2196F3;
+  color: var(--accent-color);
+}
+
+/* color title */
+
+.section-title {
+  color: var(--title-text-color);
 }
