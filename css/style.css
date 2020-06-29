@@ -24,8 +24,13 @@ body {
 .list {
   list-style: none;
 }
-.list .social {
-  list-style: none;
+.social 
+.social:hover,
+.social:focus {
+    color: var(--accent-color);
+}
+.social {
+    list-style: none;
 }
 
 /* logo nav */
