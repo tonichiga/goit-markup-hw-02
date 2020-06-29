@@ -1,0 +1,37 @@
+/* Основной цвет текста #757575 */
+/* Вторичный цвет текста #212121 */
+/* Дополнительный цвет текста (заголовок, футер) #FFFFFF */
+
+/* Цвет фона #FFFFFF */
+/* Вторичный цвет фона #F5F4FA */
+
+/* Акцент #2196F3 */
+
+body {
+    background-color: #FFFFFF;
+}
+
+.list {
+    list-style: none;
+}
+.list > social{
+    list-style: none;
+}
+
+/* logo nav */
+.logo {
+    color: #2196F3
+}
+.logo-2 {
+    color: #000000
+}
+
+/* site-nav */
+
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
