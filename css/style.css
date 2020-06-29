@@ -50,10 +50,22 @@ body {
   color: var(--accent-color);
 }
 
+/* Адресс в шапке */
+
+.address-header {
+    color: #757575;
+}
+.address-header:hover,
+.address-header:focus {
+    color: var(--accent-color);
+}
+
 /* Герой */
+
 .hero-title {
   color: var(--second-text-color);
 }
+
 /* О нас */
 
 .about-us .title {
@@ -80,6 +92,10 @@ body {
 
 /* Постоянные клиенты */
 
+.clients .clients-item:hover,
+.clients .clients-item:focus {
+    color: var(--accent-color);
+}
 .clients-title {
   color: var(--title-text-color);
 }
@@ -89,9 +105,15 @@ body {
 .address-title {
     color: var(--second-text-color);
 }
-.address .tel-mailto {
+.address-footer {  
     color: rgba(255, 255, 255 , 0.6);
 }
+.address-footer:hover,
+.address-footer:focus {
+    color: var(--accent-color);
+}
+
+
 /* Действие */
 .act-title {
     color: var(--second-text-color);
@@ -99,4 +121,11 @@ body {
 
 .footer {
     background-color: #2F303A;
+}
+
+.address .link:hover,
+.address .link:focus {
+    color: var(--accent-color);
+}
+
 }
