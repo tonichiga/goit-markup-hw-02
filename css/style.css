@@ -17,6 +17,7 @@
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
 }
 
 /* Убираем точки в списке */
@@ -24,13 +25,12 @@ body {
 .list {
   list-style: none;
 }
-.social 
-.social:hover,
+.social .social:hover,
 .social:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 .social {
-    list-style: none;
+  list-style: none;
 }
 
 /* logo nav */
@@ -42,7 +42,7 @@ body {
   color: #000000;
 }
 .logo-3 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* Навигация сайта */
@@ -54,15 +54,24 @@ body {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Кнопка */
+.button {
+  color: var(--second-text-color);
+  background-color: var(--accent-color);
+}
 
 /* Адресс в шапке */
 
 .address-header {
-    color: #757575;
+  color: #757575;
 }
 .address-header:hover,
 .address-header:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* Герой */
@@ -99,7 +108,7 @@ body {
 
 .clients .clients-item:hover,
 .clients .clients-item:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 .clients-title {
   color: var(--title-text-color);
@@ -108,29 +117,37 @@ body {
 /* Футер адресс */
 
 .address-title {
-    color: var(--second-text-color);
+  color: var(--second-text-color);
 }
-.address-footer {  
-    color: rgba(255, 255, 255 , 0.6);
+.address-title:hover,
+.address-title:focus {
+  color: red;
+  color: var(--accent-color);
+}
+
+.address-footer {
+  color: rgba(255, 255, 255, 0.6);
 }
 .address-footer:hover,
 .address-footer:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
-
 
 /* Действие */
 .act-title {
-    color: var(--second-text-color);
+  color: var(--second-text-color);
 }
 
 .footer {
-    background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 .address .link:hover,
 .address .link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
+.icon-test:hover,
+.icon-test:focus {
+  background-color: var(--accent-color);
 }
