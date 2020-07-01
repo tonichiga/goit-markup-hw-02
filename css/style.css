@@ -18,6 +18,8 @@ body {
   background-color: #ffffff;
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.71;
 }
 
 /* Убираем точки в списке */
@@ -34,15 +36,40 @@ body {
 }
 
 /* logo nav */
+.link-decoration {
+  text-decoration: none;
+}
+.site-nav .link {
+  text-decoration: none;
+}
 
-.logo {
+.first-logo {
   color: var(--accent-color);
+  font-style: normal;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
-.logo-2 {
+.second-logo {
   color: #000000;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
-.logo-3 {
+
+.footer-logo {
   color: #ffffff;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 
 /* Навигация сайта */
@@ -58,10 +85,20 @@ body {
   color: var(--accent-color);
 }
 
+.site-nav .link-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
 /* Кнопка */
 .button {
   color: var(--second-text-color);
   background-color: var(--accent-color);
+  font-family: inherit;
 }
 
 /* Адресс в шапке */
@@ -78,7 +115,25 @@ body {
 
 .hero-title {
   color: var(--second-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: black;
 }
+
+/* .hero {
+  background-image: url(/image/hero-section/hero-img-bcg.jpg);
+  width: 1600px;
+  height: 600px;
+}
+.hero .second {
+  background: rgba(47, 48, 58, 0.8);
+} */
 
 /* О нас */
 
@@ -142,12 +197,12 @@ body {
   background-color: #2f303a;
 }
 
-.address .link:hover,
-.address .link:focus {
+.link:hover,
+.link:focus {
   color: var(--accent-color);
 }
 
-.icon-test:hover,
-.icon-test:focus {
+.icon:hover,
+.icon:focus {
   background-color: var(--accent-color);
 }
