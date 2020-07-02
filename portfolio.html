@@ -4,69 +4,147 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-<body>
+  <body>
     <header>
-        <nav>
-          <!--Логотип сайта-->
-          <a lang="en" href="./index.html">
-            <span class="logo">Web</span> <span class="logo-2">Studio</span></a
-          >
-  
-          <!--Навигационное меню в шапке-->
-          <ul class="site-nav list">
-            <li><a href="./portfolio.html" class="link">Студия</a></li>
-            <li><a href="" class="link current">Портфолио</a></li>
-            <li><a href="" class="link">Контакты</a></li>
-          </ul>
-        </nav>
-  
-        <!--Контактная информация-->
-        <address>
-          <ul class="address list">
-            <li><a href="tel:+380961111111"><span class="address-header">+38 096 111 11 11</span</a>
+      <nav>
+        <!--Логотип сайта-->
+        <a class="link-decoration" lang="en" href="./index.html">
+          <span class="first-logo">Web</span>
+          <span class="second-logo">Studio</span></a
+        >
+
+        <!--Навигационное меню в шапке-->
+        <ul class="site-nav list">
+          <li>
+            <a href="" class="link">
+              <p class="link-name">Студия</p>
+            </a>
+          </li>
+          <li>
+            <a href="./portfolio.html" class="link">
+              <p class="link-name">Портфолио</p>
+            </a>
+          </li>
+          <li>
+            <a href="" class="link">
+              <p class="link-name">Контакты</p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!--Контактная информация-->
+      <address>
+        <ul class="address list">
+          <li>
+            <a class="link" href="tel:+380961111111"
+              ><span class="address-header"
+                ><img src="./image/address-img/tel-img.svg" alt="" />+38 096 111
+                11 11</span
+              ></a
+            >
+          </li>
+          <li>
+            <a class="link" lang="en" href="mailto:info@devstudio.com"
+              ><span class="address-header"
+                ><img src="./image/address-img/mail-img.svg" alt="почта" />
+                info@devstudio.com</span
+              ></a
+            >
+          </li>
+        </ul>
+      </address>
+    </header>
+    <main>
+      <ul>
+        <li>
+          <ul>
             <li>
-              <a lang="en" href="mailto:info@devstudio.com"><span class="address-header">info@devstudio.com</span></a>
+              <button type="button">Все</button>
+            </li>
+            <li><button type="button">Веб-сайты</button></li>
+            <li><button type="button">Приложения</button></li>
+            <li><button type="button">Дизайн</button></li>
+            <li><button type="button">Маркетинг</button></li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </li>
+      </ul>
+    </main>
+    <footer class="footer">
+      <div>
+        <a class="link-decoration" lang="en" href="./index.html">
+          <span class="first-logo">Web</span>
+          <span class="footer-logo">Studio</span></a
+        >
+        <address class="address">
+          <ul class="footer list">
+            <li>
+              <a class="link" href="https://goo.gl/maps/cEKbpR4M8F39uecU8">
+                <span class="address-title"
+                  >г. Киев, пр-т Леси Украинки, 26</span
+                ></a
+              >
+            </li>
+            <li>
+              <a class="link" href="tel:+380991111111"
+                ><span class="address-footer">+38 099 111 11 11</span></a
+              >
+            </li>
+            <li>
+              <a class="link" lang="en" href="mailto:info@example.com"
+                ><span class="address-footer">info@example.com</span></a
+              >
             </li>
           </ul>
         </address>
-      </header>
-      <main>
+      </div>
 
-      </main>
-      <footer class="footer">
-        <div>
-          <a lang="en" href="./index.html">
-            <span class="logo">Web</span> <span class="logo-3">Studio</span></a
-          >
-          <address class="address">
-            <ul class="footer list">
-              <li>
-                <a href="https://goo.gl/maps/cEKbpR4M8F39uecU8">
-                  <span class="address-title">г. Киев, пр-т Леси Украинки, 26</span></a>
-              </li>
-              <li>
-                <a href="tel:+380991111111"><span class="address-footer">+38 099 111 11 11</span></a>
-              </li>
-              <li>
-                <a lang="en" href="mailto:info@example.com"><span class="address-footer">info@example.com</span></a>
-              </li>
-            </ul>
-          </address>
-        </div>
-  
-        <div class="act">
-          <p class="act-title">
-            <b>присоединяйтесь</b>
-          </p>
-          <ul class="act social">
-              <li><a href="" aria-label="Facebook"><span class="social">Facebook</span></a></li>
-              <li><a href="" aria-label="Twitter"><span class="social">Twitter</span></a></li>
-              <li><a href="" aria-label="Instagram"><span class="social">Instagram</span></a></li>
-              <li><a href="" aria-label="LinkedIn"><span class="social">LinkedIn</span></a></li>
-          </ul>
-        </div>
-      </footer>
-</body>
+      <div class="act">
+        <p class="act-title">
+          <b>присоединяйтесь</b>
+        </p>
+        <ul class="act social">
+          <li>
+            <a href="" aria-label="Facebook"
+              ><span class="social">Facebook</span></a
+            >
+          </li>
+          <li>
+            <a href="" aria-label="Twitter"
+              ><span class="social">Twitter</span></a
+            >
+          </li>
+          <li>
+            <a href="" aria-label="Instagram"
+              ><span class="social">Instagram</span></a
+            >
+          </li>
+          <li>
+            <a href="" aria-label="LinkedIn"
+              ><span class="social">LinkedIn</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
