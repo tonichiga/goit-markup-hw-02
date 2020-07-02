@@ -43,6 +43,14 @@ body {
   text-decoration: none;
 }
 
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.link {
+  text-decoration: none;
+}
+
 .first-logo {
   color: var(--accent-color);
   font-style: normal;
@@ -105,6 +113,12 @@ body {
 
 .address-header {
   color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .address-header:hover,
 .address-header:focus {
@@ -173,6 +187,11 @@ body {
 
 .address-title {
   color: var(--second-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 .address-title:hover,
 .address-title:focus {
@@ -182,6 +201,12 @@ body {
 
 .address-footer {
   color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 .address-footer:hover,
 .address-footer:focus {
@@ -190,16 +215,18 @@ body {
 
 /* Действие */
 .act-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--second-text-color);
 }
 
 .footer {
   background-color: #2f303a;
-}
-
-.link:hover,
-.link:focus {
-  color: var(--accent-color);
 }
 
 .icon:hover,
