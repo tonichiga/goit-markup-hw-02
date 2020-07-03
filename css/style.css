@@ -22,12 +22,16 @@ body {
   line-height: 1.71;
 }
 
+/* Hover */
+
+.item-hover-focus:hover,
+.item-hover-focus:focus {
+  color: var(--accent-color);
+}
+
 /* Убираем точки в списке */
 
-.list {
-  list-style: none;
-}
-.social .social:hover,
+.social:hover,
 .social:focus {
   color: var(--accent-color);
 }
@@ -37,17 +41,6 @@ body {
 
 /* logo nav */
 .link-decoration {
-  text-decoration: none;
-}
-.site-nav .link {
-  text-decoration: none;
-}
-
-.link:hover,
-.link:focus {
-  color: var(--accent-color);
-}
-.link {
   text-decoration: none;
 }
 
@@ -83,23 +76,33 @@ body {
 /* Навигация сайта */
 
 .site-nav .link {
+  text-decoration: none;
   color: var(--title-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-.site-nav .link.current {
+.link-1:hover,
+.link-1:focus {
   color: var(--accent-color);
 }
 
-.site-nav .link-name {
+.link-name {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.link-name:hover,
+.link-name:focus {
+  color: var(--accent-color);
+}
+.current {
+  color: var(--accent-color);
 }
 
 /* Кнопка */

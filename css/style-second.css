@@ -1,0 +1,237 @@
+/* Основной цвет текста #757575 */
+/* Вторичный цвет текста #212121 */
+/* Дополнительный цвет текста (заголовок, футер) #FFFFFF */
+
+/* Цвет фона #FFFFFF */
+/* Вторичный цвет фона #F5F4FA */
+
+/* Акцент #2196F3 */
+
+:root {
+  --primary-text-color: #757575;
+  --second-text-color: #ffffff;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+/* Общие атрибуты */
+
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.71;
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+.hover-focus:hover,
+.hover-focus:focus {
+  color: var(--accent-color);
+}
+
+/* Лооготип */
+.first-logo,
+.second-logo,
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.second-logo {
+  color: #000000;
+}
+
+.footer-logo {
+  color: #ffffff;
+}
+.first-logo {
+  color: var(--accent-color);
+}
+/* Навигационное меню */
+
+.site-nav-text,
+.address-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.address-text {
+  font-style: normal;
+  font-family: Roboto;
+  color: var(--primary-text-color);
+}
+.site-nav-text {
+  color: var(--title-text-color);
+}
+.site {
+  background-color: #ffffff;
+}
+
+/* Герой */
+
+.hero .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--second-text-color);
+}
+
+.general-btn {
+  background-color: var(--accent-color);
+  color: var(--second-text-color);
+}
+
+/* О нас */
+
+.about-us .about-us-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.about-us .about-ux-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.about-us-img:hover,
+.about-us-img:focus {
+  background-color: var(--accent-color);
+}
+.about-us {
+  background-color: #ffffff;
+}
+
+/* Чем мы занимаемся */
+/* Наша команда */
+
+.features .features-title,
+.our-team .our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.features .features-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-text-color);
+}
+
+/* Наша команда */
+
+.our-team .our-team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.our-team .our-team-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.our-team .our-team-social:hover,
+.our-team .our-team-social:focus {
+  color: var(--accent-color);
+  /* background-color: var(--accent-color); */
+}
+
+.our-team {
+  background: #f5f4fa;
+}
+
+/* Постоянные клиенты */
+
+.clients-logo-item:hover,
+.clients-logo-item:hover {
+  background-color: var(--accent-color);
+}
+.clients-main {
+  background-color: #ffffff;
+}
+
+/* Футер */
+
+.footer-main {
+  background-color: #2f303a;
+}
+.footer .footer-address-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+.footer .footer-address-link:hover,
+.footer .footer-address-link:focus {
+  color: var(--accent-color);
+}
+.footer .footer-mailto-link,
+.footer .footer-tel-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer .footer-mailto-link:hover,
+.footer .footer-mailto-link:focus {
+  color: var(--accent-color);
+}
+.footer .footer-tel-link:hover,
+.footer .footer-tel-link:focus {
+  color: var(--accent-color);
+}
+/* Присоединяйтесь */
+
+.join-in-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-text-color);
+}
+.join-in-link-social:hover,
+.join-in-link-social:focus {
+  color: var(--accent-color);
+}

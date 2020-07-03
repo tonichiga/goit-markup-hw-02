@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="css/style-second.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -12,26 +12,25 @@
   </head>
 
   <body>
-    <header>
+    <header class="site">
       <nav>
         <!--Логотип сайта-->
-        <a class="link-decoration" lang="en" href="./index.html">
-          <span class="first-logo">Web</span>
-          <span class="second-logo">Studio</span></a
+        <a lang="en" href="./index.html" class="link"
+          ><span class="first-logo">Web</span
+          ><span class="second-logo">Studio</span></a
         >
-
         <!--Навигационное меню в шапке-->
         <ul class="site-nav list">
           <li>
-            <a href="" class="link"><p class="link-name">Студия</p></a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="link"
-              ><p class="link-name">Портфолио</p></a
+            <a href="./portfolio.html" class="site-nav-text hover-focus link"
+              >Студия</a
             >
           </li>
           <li>
-            <a href="" class="link"><p class="link-name">Контакты</p></a>
+            <a href="" class="site-nav-text hover-focus link">Портфолио</a>
+          </li>
+          <li>
+            <a href="" class="site-nav-text hover-focus link">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -40,22 +39,16 @@
       <address>
         <ul class="address list">
           <li>
-            <a class="link-decoration" href="tel:+380961111111"
-              ><span class="address-header"
-                ><img src="./image/address-img/tel-img.svg" alt="" />+38 096 111
-                11 11</span
-              ></a
+            <a href="tel:+380961111111" class="address-text link hover-focus"
+              >+38 096 111 11 11</a
             >
           </li>
           <li>
             <a
-              class="link-decoration"
               lang="en"
               href="mailto:info@devstudio.com"
-              ><span class="address-header"
-                ><img src="./image/address-img/mail-img.svg" alt="почта" />
-                info@devstudio.com</span
-              ></a
+              class="address-text link hover-focus"
+              >info@devstudio.com</a
             >
           </li>
         </ul>
@@ -70,57 +63,57 @@
           для вашего бизнеса
         </h1>
 
-        <button type="button" class="button">Заказать услугу</button>
+        <button class="general-btn" type="button">Заказать услугу</button>
       </section>
 
       <!-- О нас -->
-      <section class="about-us">
+      <section class="about-us list">
         <h2 hidden>О нас</h2>
-        <ul class="about-us list">
+        <ul class="about-us-item list">
           <li>
             <img
-              class="icon"
               src="./image/about-us/about-us-1.svg"
               alt="внимание к деталям"
+              class="about-us-img"
             />
-            <h3 class="title">внимание к деталям</h3>
-            <p>
+            <h3 class="about-us-title">внимание к деталям</h3>
+            <p class="about-us-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
             <img
-              class="icon"
               src="./image/about-us/about-us-2.svg"
               alt="пунктуальность"
+              class="about-us-img"
             />
-            <h3 class="title">пунктуальность</h3>
-            <p>
+            <h3 class="about-us-title">пунктуальность</h3>
+            <p class="about-us-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
             <img
-              class="icon"
               src="./image/about-us/about-us-3.svg"
               alt="планированием"
+              class="about-us-img"
             />
-            <h3 class="title">планирование</h3>
-            <p>
+            <h3 class="about-us-title">планирование</h3>
+            <p class="about-us-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
             <img
-              class="icon"
               src="./image/about-us/about-us-4.svg"
+              class="about-us-img"
               alt="современные технологии"
             />
-            <h3 class="title">современные технологии</h3>
-            <p>
+            <h3 class="about-us-title">современные технологии</h3>
+            <p class="about-us-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -131,7 +124,7 @@
       <!-- Чем мы занимаемся -->
       <section class="features">
         <h2 class="features-title">Чем мы занимаемся</h2>
-        <ul class="features list">
+        <ul class="features-item list">
           <li>
             <img
               src="./image/what-we-do/what-we-do-1.jpg"
@@ -164,8 +157,8 @@
 
       <!-- Наша команда -->
       <section class="our-team">
-        <h2 class="title">Наша команда</h2>
-        <ul class="our-team list">
+        <h2 class="our-team-title">Наша команда</h2>
+        <ul class="our-team-item list">
           <li>
             <img
               src="./image/team/img-team-1.jpg"
@@ -173,28 +166,28 @@
               width="270"
               height="260"
             />
-            <h3 class="title">Николай Кучеренко</h3>
-            <p lang="en">Product Designer</p>
+            <h3 class="our-team-subtitle">Николай Кучеренко</h3>
+            <p lang="en" class="our-team-text">Product Designer</p>
 
-            <ul class="our-team social">
+            <ul class="our-team list social">
               <li>
-                <a href="" aria-label="Facebook"
-                  ><span class="social">Facebook</span></a
+                <a href="" aria-label="Facebook" class="our-team-social link"
+                  >Facebook</a
                 >
               </li>
               <li>
-                <a href="" aria-label="Twitter"
-                  ><span class="social">Twitter</span></a
+                <a href="" aria-label="Twitter" class="our-team-social link"
+                  >Twitter</a
                 >
               </li>
               <li>
-                <a href="" aria-label="Instagram"
-                  ><span class="social">Instagram</span></a
+                <a href="" aria-label="Instagram" class="our-team-social link"
+                  >Instagram</a
                 >
               </li>
               <li>
-                <a href="" aria-label="LinkedIn"
-                  ><span class="social">LinkedIn</span></a
+                <a href="" aria-label="LinkedIn" class="our-team-social link"
+                  >LinkedIn</a
                 >
               </li>
             </ul>
@@ -207,28 +200,28 @@
               width="270"
               height="260"
             />
-            <h3 class="title">Ольга Иванова</h3>
-            <p lang="en">Frontend Developer</p>
+            <h3 class="our-team-subtitle">Ольга Иванова</h3>
+            <p lang="en" class="our-team-text">Frontend Developer</p>
 
-            <ul class="our-team social">
+            <ul class="our-team list social">
               <li>
-                <a href="" aria-label="Facebook"
-                  ><span class="social">Facebook</span></a
+                <a href="" aria-label="Facebook" class="our-team-social link"
+                  >Facebook</a
                 >
               </li>
               <li>
-                <a href="" aria-label="Twitter"
-                  ><span class="social">Twitter</span></a
+                <a href="" aria-label="Twitter" class="our-team-social link"
+                  >Twitter</a
                 >
               </li>
               <li>
-                <a href="" aria-label="Instagram"
-                  ><span class="social">Instagram</span></a
+                <a href="" aria-label="Instagram" class="our-team-social link"
+                  >Instagram</a
                 >
               </li>
               <li>
-                <a href="" aria-label="LinkedIn"
-                  ><span class="social">LinkedIn</span></a
+                <a href="" aria-label="LinkedIn" class="our-team-social link"
+                  >LinkedIn</a
                 >
               </li>
             </ul>
@@ -241,28 +234,28 @@
               width="270"
               height="260"
             />
-            <h3 class="title">Андрей Шевченко</h3>
-            <p lang="en">Marketing</p>
+            <h3 class="our-team-subtitle">Андрей Шевченко</h3>
+            <p lang="en" class="our-team-text">Marketing</p>
 
-            <ul class="our-team social">
+            <ul class="our-team list">
               <li>
-                <a href="" aria-label="Facebook"
-                  ><span class="social">Facebook</span></a
+                <a href="" aria-label="Facebook" class="our-team-social link"
+                  >Facebook</a
                 >
               </li>
               <li>
-                <a href="" aria-label="Twitter"
-                  ><span class="social">Twitter</span></a
+                <a href="" aria-label="Twitter" class="our-team-social link"
+                  >Twitter</a
                 >
               </li>
               <li>
-                <a href="" aria-label="Instagram"
-                  ><span class="social">Instagram</span></a
+                <a href="" aria-label="Instagram" class="our-team-social link"
+                  >Instagram</a
                 >
               </li>
               <li>
-                <a href="" aria-label="LinkedIn"
-                  ><span class="social">LinkedIn</span></a
+                <a href="" aria-label="LinkedIn" class="our-team-social link"
+                  >LinkedIn</a
                 >
               </li>
             </ul>
@@ -275,28 +268,28 @@
               width="270"
               height="260"
             />
-            <h3 class="title">Иван Николаев</h3>
-            <p lang="en">UI Designer</p>
+            <h3 class="our-team-subtitle">Иван Николаев</h3>
+            <p lang="en" class="our-team-text">UI Designer</p>
 
-            <ul class="our-team social">
+            <ul class="our-team list social">
               <li>
-                <a href="" aria-label="Facebook"
-                  ><span class="social">Facebook</span></a
+                <a href="" aria-label="Facebook" class="our-team-social link"
+                  >Facebook</a
                 >
               </li>
               <li>
-                <a href="" aria-label="Twitter"
-                  ><span class="social">Twitter</span></a
+                <a href="" aria-label="Twitter" class="our-team-social link"
+                  >Twitter</a
                 >
               </li>
               <li>
-                <a href="" aria-label="Instagram"
-                  ><span class="social">Instagram</span></a
+                <a href="" aria-label="Instagram" class="our-team-social link"
+                  >Instagram</a
                 >
               </li>
               <li>
-                <a href="" aria-label="LinkedIn"
-                  ><span class="social">LinkedIn</span></a
+                <a href="" aria-label="LinkedIn" class="our-team-social link"
+                  >LinkedIn</a
                 >
               </li>
             </ul>
@@ -304,114 +297,116 @@
         </ul>
       </section>
 
-      <!-- Наши клиенты -->
-      <section class="clients">
-        <h2 class="clients-title">Постоянные клиенты</h2>
+      <section class="clients-main">
+        <h2 class="clients">Постоянные клиенты</h2>
         <ul class="clients-item list">
           <li>
-            <a href="">
-              <img
+            <a href=""
+              ><img
                 src="./image/logo-company/logo-company-1.svg"
                 alt="логотип компании"
-              />
-            </a>
+                class="clients-logo-item"
+            /></a>
           </li>
           <li>
-            <a href="">
-              <img
+            <a href=""
+              ><img
                 src="./image/logo-company/logo-company-2.svg"
                 alt="логотип компании"
-              />
-            </a>
+                class="clients-logo-item"
+            /></a>
           </li>
           <li>
-            <a href="">
-              <img
+            <a href=""
+              ><img
                 src="./image/logo-company/logo-company-3.svg"
                 alt="логотип компании"
-              />
-            </a>
+                class="clients-logo-item"
+            /></a>
           </li>
           <li>
-            <a href="">
-              <img
+            <a href=""
+              ><img
                 src="./image/logo-company/logo-company-4.svg"
                 alt="логотип компании"
-              />
-            </a>
+                class="clients-logo-item"
+            /></a>
           </li>
           <li>
-            <a href="">
-              <img
+            <a href=""
+              ><img
                 src="./image/logo-company/logo-company-5.svg"
                 alt="логотип компании"
-              />
-            </a>
+                class="clients-logo-item"
+            /></a>
           </li>
           <li>
-            <a href="">
-              <img
+            <a href=""
+              ><img
                 src="./image/logo-company/logo-company-6.svg"
                 alt="логотип компании"
-              />
-            </a>
+                class="clients-logo-item"
+            /></a>
           </li>
         </ul>
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer-main">
       <div>
-        <a class="link-decoration" lang="en" href="./index.html">
-          <span class="first-logo">Web</span>
+        <a lang="en" href="./index.html"
+          ><span class="first-logo">Web</span>
           <span class="footer-logo">Studio</span></a
         >
-        <address class="address">
+        <address>
           <ul class="footer list">
             <li>
-              <a class="link" href="https://goo.gl/maps/cEKbpR4M8F39uecU8">
-                <span class="address-title"
-                  >г. Киев, пр-т Леси Украинки, 26</span
-                ></a
+              <a
+                href="https://goo.gl/maps/cEKbpR4M8F39uecU8"
+                class="footer-address-link link"
+                >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
             <li>
-              <a class="link" href="tel:+380991111111"
-                ><span class="address-footer">+38 099 111 11 11</span></a
+              <a href="tel:+380991111111" class="footer-tel-link link"
+                >+38 099 111 11 11</a
               >
             </li>
             <li>
-              <a class="link" lang="en" href="mailto:info@example.com"
-                ><span class="address-footer">info@example.com</span></a
+              <a
+                lang="en"
+                href="mailto:info@example.com"
+                class="footer-mailto-link link"
+                >info@example.com</a
               >
             </li>
           </ul>
         </address>
       </div>
 
-      <div class="act">
-        <p class="act-title">
-          <b>присоединяйтесь</b>
+      <div class="join-in">
+        <p>
+          <b class="join-in-text">присоединяйтесь</b>
         </p>
-        <ul class="act social">
+        <ul class="join-in-social list link">
           <li>
-            <a href="" aria-label="Facebook"
-              ><span class="social">Facebook</span></a
+            <a href="" aria-label="Facebook" class="join-in-link-social"
+              >Facebook</a
             >
           </li>
           <li>
-            <a href="" aria-label="Twitter"
-              ><span class="social">Twitter</span></a
+            <a href="" aria-label="Twitter" class="join-in-link-social"
+              >Twitter</a
             >
           </li>
           <li>
-            <a href="" aria-label="Instagram"
-              ><span class="social">Instagram</span></a
+            <a href="" aria-label="Instagram" class="join-in-link-social"
+              >Instagram</a
             >
           </li>
           <li>
-            <a href="" aria-label="LinkedIn"
-              ><span class="social">LinkedIn</span></a
+            <a href="" aria-label="LinkedIn" class="join-in-link-social"
+              >LinkedIn</a
             >
           </li>
         </ul>
