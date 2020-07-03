@@ -188,15 +188,25 @@ body {
 .footer-main {
   background-color: #2f303a;
 }
+
+.footer .footer-mailto-link,
+.footer .footer-tel-link,
 .footer .footer-address-link {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 1.71;
+}
+
+.footer .footer-address-link {
   color: var(--second-text-color);
 }
+.footer .footer-mailto-link,
+.footer .footer-tel-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .footer .footer-address-link:hover,
 .footer .footer-address-link:focus {
   color: var(--accent-color);
@@ -207,10 +217,10 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
 }
+
 .footer .footer-mailto-link:hover,
 .footer .footer-mailto-link:focus {
   color: var(--accent-color);
@@ -226,7 +236,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-text-color);
@@ -234,4 +244,54 @@ body {
 .join-in-link-social:hover,
 .join-in-link-social:focus {
   color: var(--accent-color);
+}
+
+/* !!!! Портфолио !!!! */
+
+/* Фильтр-кнопки */
+
+.header-main {
+  background-color: #ffffff;
+}
+
+.portfolio .portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.portfolio .portfolio-btn:hover,
+.portfolio .portfolio-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--second-text-color);
+}
+
+.portfolio .portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.portfolio .portfolio-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.portfolio .portfolio-pre-text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+.portfolio-item-link:hover,
+.portfolio-item-link:focus {
+  background-color: var(--accent-color);
 }
