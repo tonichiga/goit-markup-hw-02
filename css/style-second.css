@@ -36,6 +36,10 @@ body {
   color: var(--accent-color);
 }
 
+.site-nav.list .current {
+  color: var(--accent-color);
+}
+
 /* Лооготип */
 .first-logo,
 .second-logo,
@@ -107,7 +111,7 @@ body {
   color: var(--title-text-color);
 }
 
-.about-us .about-ux-text {
+.about-us .about-us-text {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -181,6 +185,15 @@ body {
 }
 .clients-main {
   background-color: #ffffff;
+}
+.clients-main .clients {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
 }
 
 /* Футер */
@@ -294,4 +307,8 @@ body {
 .portfolio-item-link:hover,
 .portfolio-item-link:focus {
   background-color: var(--accent-color);
+}
+
+.portfolio {
+  background-color: var(--second-text-color);
 }
