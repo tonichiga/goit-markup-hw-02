@@ -44,7 +44,7 @@ body {
 .first-logo,
 .second-logo,
 .footer-logo {
-  font-family: Raleway;
+  font-family: "Raleway" sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -103,7 +103,7 @@ body {
 /* О нас */
 
 .about-us .about-us-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -226,7 +226,7 @@ body {
 }
 .footer .footer-mailto-link,
 .footer .footer-tel-link {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -245,8 +245,6 @@ body {
 /* Присоединяйтесь */
 
 .join-in-text {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
