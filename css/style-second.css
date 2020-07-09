@@ -40,7 +40,7 @@ body {
   color: var(--accent-color);
 }
 
-.contaner {
+.container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -71,6 +71,39 @@ body {
 }
 /* Навигационное меню */
 
+.nav-address {
+  margin-left: auto;
+}
+
+.header-nav .nav-address .address {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav .address-item-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav .mail-item {
+  margin-right: 30px;
+}
+
+.header-nav .mail-link,
+.header-nav .tel-link {
+  margin-right: 10px;
+}
+
+.nav-address .address-text {
+  display: flex;
+  align-items: center;
+}
+
+.nav-address .address {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .first-logo {
   margin-right: 7px;
 }
@@ -82,7 +115,6 @@ body {
 .site .header-nav {
   display: flex;
   align-items: center;
-  outline: solid 1px;
 }
 .site .site-nav {
   display: flex;
@@ -121,7 +153,13 @@ body {
 
 /* Герой */
 
+.hero {
+  padding-bottom: 200px;
+}
+
 .hero .hero-title {
+  padding-top: 200px;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -129,14 +167,49 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--second-text-color);
+  margin-top: 0px;
+}
+
+.services-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .general-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87px;
+  width: 200px;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--second-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  border-radius: 4px;
+  border: none;
 }
 
 /* О нас */
+
+.about-us-item-list {
+}
+
+.about-us {
+  padding-top: 94px;
+}
+
+.about-us-item {
+  display: flex;
+  padding-left: 0px;
+  margin-top: 0px;
+  flex-grow: 1;
+}
 
 .about-us .about-us-title {
   font-weight: 700;

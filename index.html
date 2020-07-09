@@ -14,7 +14,7 @@
 
   <body>
     <header class="site">
-      <div class="contaner">
+      <div class="container">
         <nav class="header-nav">
           <!--Логотип сайта-->
           <a lang="en" href="./index.html" class="logo link"
@@ -37,27 +37,29 @@
               <a href="" class="site-nav-text hover-focus link">Контакты</a>
             </li>
           </ul>
-          <address>
+          <address class="nav-address">
             <ul class="address list">
-              <li>
-                <a
-                  href="tel:+380961111111"
-                  class="address-text link hover-focus"
-                  ><img
-                    src="./image/address-img/tel-img.svg"
-                    alt="телефон"
-                  />+38 096 111 11 11</a
-                >
-              </li>
-              <li>
+              <li class="address-item-list mail-item">
                 <a
                   lang="en"
                   href="mailto:info@devstudio.com"
                   class="address-text link hover-focus"
                   ><img
+                    class="mail-link"
                     src="./image/address-img/mail-img.svg"
                     alt="электронная почта"
                   />info@devstudio.com</a
+                >
+              </li>
+              <li class="address-item-list tel-item">
+                <a
+                  href="tel:+380961111111"
+                  class="address-text link hover-focus"
+                  ><img
+                    class="tel-link"
+                    src="./image/address-img/tel-img.svg"
+                    alt="телефон"
+                  />+38 096 111 11 11</a
                 >
               </li>
             </ul>
@@ -75,62 +77,66 @@
           для вашего бизнеса
         </h1>
 
-        <button class="general-btn" type="button">Заказать услугу</button>
+        <button class="services-btn general-btn" type="button">
+          Заказать услугу
+        </button>
       </section>
 
       <!-- О нас -->
       <section class="about-us list">
-        <h2 hidden>О нас</h2>
-        <ul class="about-us-item list">
-          <li>
-            <img
-              src="./image/about-us/about-us-1.svg"
-              alt="внимание к деталям"
-              class="about-us-img"
-            />
-            <h3 class="about-us-title">внимание к деталям</h3>
-            <p class="about-us-text">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li>
-            <img
-              src="./image/about-us/about-us-2.svg"
-              alt="пунктуальность"
-              class="about-us-img"
-            />
-            <h3 class="about-us-title">пунктуальность</h3>
-            <p class="about-us-text">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li>
-            <img
-              src="./image/about-us/about-us-3.svg"
-              alt="планированием"
-              class="about-us-img"
-            />
-            <h3 class="about-us-title">планирование</h3>
-            <p class="about-us-text">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <img
-              src="./image/about-us/about-us-4.svg"
-              class="about-us-img"
-              alt="современные технологии"
-            />
-            <h3 class="about-us-title">современные технологии</h3>
-            <p class="about-us-text">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 hidden>О нас</h2>
+          <ul class="about-us-item list">
+            <li class="about-us-item-list">
+              <img
+                src="./image/about-us/about-us-1.svg"
+                alt="внимание к деталям"
+                class="about-us-img"
+              />
+              <h3 class="about-us-title">внимание к деталям</h3>
+              <p class="about-us-text">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="about-us-item-list">
+              <img
+                src="./image/about-us/about-us-2.svg"
+                alt="пунктуальность"
+                class="about-us-img"
+              />
+              <h3 class="about-us-title">пунктуальность</h3>
+              <p class="about-us-text">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li class="about-us-item-list">
+            <li>
+              <img
+                src="./image/about-us/about-us-3.svg"
+                alt="планированием"
+                class="about-us-img"
+              />
+              <h3 class="about-us-title">планирование</h3>
+              <p class="about-us-text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="about-us-item-list">
+              <img
+                src="./image/about-us/about-us-4.svg"
+                class="about-us-img"
+                alt="современные технологии"
+              />
+              <h3 class="about-us-title">современные технологии</h3>
+              <p class="about-us-text">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Чем мы занимаемся -->
