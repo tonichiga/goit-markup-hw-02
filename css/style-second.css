@@ -40,11 +40,19 @@ body {
   color: var(--accent-color);
 }
 
+.contaner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Лооготип */
 .first-logo,
 .second-logo,
 .footer-logo {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -63,12 +71,40 @@ body {
 }
 /* Навигационное меню */
 
+.first-logo {
+  margin-right: 7px;
+}
+
+.logo {
+  margin-right: 85px;
+}
+
+.site .header-nav {
+  display: flex;
+  align-items: center;
+  outline: solid 1px;
+}
+.site .site-nav {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.site .site-nav-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .site-nav-text,
 .address-text {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+}
+
+.site-nav-text {
+  display: inline-block;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .address-text {
