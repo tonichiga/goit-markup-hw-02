@@ -41,7 +41,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -198,6 +198,10 @@ body {
 /* О нас */
 
 .about-us-item-list {
+  display: flex;
+  /* flex-wrap: wrap; */
+  width: 270px;
+  flex-direction: column;
 }
 
 .about-us {
@@ -209,6 +213,22 @@ body {
   padding-left: 0px;
   margin-top: 0px;
   flex-grow: 1;
+  margin-bottom: 0px;
+  background-color: teal;
+  justify-content: center;
+}
+
+.about-us .about-us-item-list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.about-us .about-us-img {
+  padding-top: 25px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  padding-left: 100px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
 }
 
 .about-us .about-us-title {
@@ -218,6 +238,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
+  margin: 0px;
 }
 
 .about-us .about-us-text {
@@ -238,6 +259,27 @@ body {
 /* Чем мы занимаемся */
 /* Наша команда */
 
+.features .container {
+  background-color: teal;
+}
+
+.features {
+  padding-top: 94px;
+}
+.features .features-item {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  justify-content: center;
+}
+.features .features-item-list:not(:last-child) {
+  margin-right: 30px;
+}
+.features .features-title {
+  margin-bottom: 50px;
+}
+
 .features .features-title,
 .our-team .our-team-title {
   font-weight: 700;
@@ -246,13 +288,14 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-top: 0px;
 }
 
 .features .features-text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  /* text-align: center; */
+  text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-text-color);
@@ -260,7 +303,33 @@ body {
 
 /* Наша команда */
 
+.our-team {
+  padding-top: 94px;
+}
+
+.our-team-item {
+  background-color: teal;
+  display: flex;
+  margin-top: 0px;
+  padding-left: 0px;
+  justify-content: center;
+}
+
+.our-team-title {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.our-team-item-list:not(:last-child) {
+  margin-right: 30px;
+}
+.our-team-item-photo {
+  margin-bottom: 30px;
+}
+
 .our-team .our-team-subtitle {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -269,6 +338,9 @@ body {
 }
 
 .our-team .our-team-text {
+  margin-top: 0px;
+  margin-bottom: 16px;
+  text-align: center;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
