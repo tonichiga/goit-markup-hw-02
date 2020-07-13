@@ -314,7 +314,7 @@ body {
 }
 
 .our-team-item {
-  background-color: teal;
+  /* background-color: teal; */
   display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
