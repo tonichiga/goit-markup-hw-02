@@ -41,7 +41,7 @@ body {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -155,11 +155,11 @@ body {
 /* Герой */
 
 .hero {
+  padding-top: 200px;
   padding-bottom: 200px;
 }
 
 .hero .hero-title {
-  padding-top: 200px;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -296,6 +296,7 @@ body {
 }
 
 .features .features-text {
+  display: block;
   margin-top: 0px;
   margin-bottom: 0px;
   font-weight: 700;
@@ -305,6 +306,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-text-color);
+}
+.features-container {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Наша команда */
@@ -379,6 +384,14 @@ body {
   background: #f5f4fa;
   padding-bottom: 94px;
 }
+.icon-container {
+}
+.icon-container-link {
+  display: flex;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+}
 
 /* Постоянные клиенты */
 
@@ -405,7 +418,7 @@ body {
 }
 .clients-main {
   padding-top: 94px;
-  padding-bottom: 76px;
+  padding-bottom: 94px;
   background-color: #ffffff;
 }
 .clients-item {
@@ -433,11 +446,15 @@ body {
 }
 .footer-main-container {
   display: flex;
+  align-items: baseline;
+  padding-top: 90px;
 }
 .footer-address {
   display: flex;
-  padding-top: 78px;
+
+  /* padding-top: 78px; */
   flex-direction: column;
+  justify-content: center;
   width: 231px;
   margin-right: 69px;
 }
@@ -508,7 +525,10 @@ body {
 /* Присоединяйтесь */
 
 .footer-main .join-in {
-  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding-top: 90px; */
 }
 
 .join-in-social {
@@ -549,13 +569,14 @@ body {
   margin-top: 0px;
   margin-bottom: 34px;
   padding-left: 0px;
-  padding-top: 93px;
   justify-content: center;
 }
 .portfolio-item-list:not(:last-child) {
   margin-right: 8px;
 }
-
+.portfolio-section {
+  padding-top: 93px;
+}
 .portfolio .portfolio-btn {
   padding-top: 6px;
   padding-right: 22px;
@@ -638,7 +659,9 @@ body {
 .portfolio-item-link:focus {
   background-color: var(--accent-color);
 }
-
+.portfolio-item-link {
+  text-decoration: none;
+}
 .portfolio {
   background-color: var(--second-text-color);
 }
